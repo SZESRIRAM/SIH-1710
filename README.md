@@ -11,7 +11,7 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-# RailNavi
+### RailNavi
 RailNavi treats time-to-departure as the primary input to every route — not an afterthought bolted onto a generic indoor map. Facility-finding (restrooms, food courts, ATMs, waiting areas) remains a full first-class mode, but journey-critical navigation leads.
 
 | Common approach in this space | RailNavi |
