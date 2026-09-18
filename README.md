@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:18/09/2026
+## Register Number:212225240105
+## Name:Ponsriram P
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,7 +11,10 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+# RailNavi
+RailNavi treats time-to-departure as the primary input to every route — not an afterthought bolted onto a generic indoor map. Facility-finding (restrooms, food courts, ATMs, waiting areas) remains a full first-class mode, but journey-critical navigation leads.
 
+|Common| |RailNavi|
 
 ## Proposed Solution / Architecture Diagram
 
