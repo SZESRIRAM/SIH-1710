@@ -76,3 +76,10 @@ A simple staff CMS, used by the station master's office, lets staff mark a block
 | Voice / Haptic | Web Speech API with bundled offline TTS per station, Vibration API | Works without connectivity in basement/underground zones |
 
 ## Dependencies
+### 1 Station Wi-Fi infrastructure (RailWire access points) — required; already deployed at most target stations, so no new install
+### 2 Live train ETA/PRS-NTES data access from Indian Railways — pending approval; the prototype runs on a simulated feed until this is granted
+### 3 Station floor plans / physical walkthrough for graph digitization — 2–3 weeks per station
+### 4 Wi-Fi fingerprint data collection & calibration — 1 week per station
+### 5 QR/NFC anchor stickers (printing + placement at decision points) — 2–3 days per station
+### 6 Staff CMS onboarding & training for the station master's office — 2 days per station
+### 7 Indicative pilot budget (one station): ₹1.5–2.5 lakh — covers anchor printing, fingerprint calibration effort, and kiosk software licensing; excludes new ### 8 hardware, since existing station Wi-Fi is reused
