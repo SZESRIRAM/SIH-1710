@@ -53,7 +53,16 @@ A simple staff CMS, used by the station master's office, lets staff mark a block
 <img width="1494" height="481" alt="image" src="https://github.com/user-attachments/assets/246fb417-2688-466b-a636-76b53978f570" />
 
 ## Use Cases
-
+| Actor / Scenario | Situation | How RailNavi Responds |
+|---|---|---|
+| Passenger with a tight connection | Scans ticket QR on arrival, 12 minutes to departure | Shows platform, live ETA, and the fastest low-crowd route with a countdown; re-routes instantly if the platform changes |
+| First-time visitor, no time pressure | Wants a restroom, ATM, or food court | Switches to facility-finder mode; shortest walking route to the nearest matching facility |
+| Visually impaired passenger | Needs full guidance without reading a screen | Turn-by-turn voice plus distinct haptic vibration patterns per turn/arrival, using only accessible routing edges |
+| Wheelchair user / heavy luggage | Cannot use stairs | Routing graph excludes stair edges entirely; guided via ramps and lifts only |
+| Elderly passenger, unfamiliar with apps | Approaches a station kiosk | Same PWA runs on the kiosk touchscreen with a large-text, simplified UI — no phone, no install |
+| Passenger in a crowded concourse (peak hours / festival rush) | Live Wi-Fi density heatmap shows a bottleneck ahead | Route is automatically shifted around the worst congestion, cutting both time and crowd-crush risk |
+| Passenger whose train's platform changes mid-walk | Live ETA adapter detects a platform reassignment | Route recalculates instantly with one calm voice + haptic alert, instead of silently going stale |
+| Passenger in a basement/underground zone with no signal | Connectivity drops mid-route | Dead reckoning plus the pre-cached station graph keeps guidance working offline; syncs back once reconnected |
 
 ## Technology Stack
 | Layer | Technology | Why |
