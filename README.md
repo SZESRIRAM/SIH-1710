@@ -14,8 +14,15 @@ Ministry of Railway
 # RailNavi
 RailNavi treats time-to-departure as the primary input to every route — not an afterthought bolted onto a generic indoor map. Facility-finding (restrooms, food courts, ATMs, waiting areas) remains a full first-class mode, but journey-critical navigation leads.
 
-|Common| |RailNavi|
-
+| Common approach in this space | RailNavi |
+|---|---|
+| 3D / AR interactive maps | Lightweight 2D vector maps — loads in under 2 seconds on a budget Android phone, works over poor station Wi-Fi |
+| Dense BLE beacon network across every station (high install + battery/maintenance cost, hard to scale to 7,000+ Indian stations) | Beacon-free: sparse QR/NFC anchors only at decision points + Wi-Fi RSSI fingerprinting off existing station Wi-Fi + on-device dead reckoning |
+| Static point-to-point routing ("find the restroom") | Routing that is aware of your specific train's live ETA and platform, and silently recalculates if either changes |
+| Voice guidance as a single accessibility add-on | Voice and distinct haptic vibration patterns as equal, independent channels |
+| One generic "accessibility mode" toggle | Separate routing graphs for stairs / escalators / ramps / lifts, so a wheelchair or trolley route is physically valid — not just narrated |
+| A native app the passenger must find and install | A Progressive Web App opened instantly via QR/NFC at any gate or kiosk — zero install |
+| Map updates require a new app release or manual redeploy | A staff-editable digital twin — layout or platform changes go live on every phone and kiosk within seconds |
 ## Proposed Solution / Architecture Diagram
 
 
